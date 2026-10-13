@@ -1,0 +1,6 @@
+# devops-policy/.aurumcode/config.yml — mantido pelo time de engenharia.
+# A camada de padrões só contribui skills (skills/<nome>/SKILL.md) e
+# analistas (profiles.yml): este arquivo fica vazio de propósito. Qualquer
+# seção aqui (gate, ignore, exceptions, rules, quality_gates, publication...)
+# é recusada pelo AurumCode antes de chamar o modelo: gate, ignore e exceções
+# são da política de segurança; o resto, do serviço.

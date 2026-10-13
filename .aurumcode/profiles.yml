@@ -1,0 +1,15 @@
+# Analistas do time: cada um faz a sua passada do modelo, com o seu foco, e
+# o achado sai no parecer marcado com o analista. "seguranca" e embutido no
+# AurumCode; estes dois sao do time. A lista dos que rodam fica em
+# review.profiles, no config.yml.
+profiles:
+  - name: padroes
+    version: "1"
+    emphasis: "padroes de codigo do time"
+    families: ["quality"]
+    instructions: "Analista de padroes do time de desenvolvimento: confira as convencoes das skills do repositorio, a legibilidade e o tratamento de erro do codigo alterado; cite a regra da skill quando houver."
+  - name: qa
+    version: "1"
+    emphasis: "testes e regressao"
+    families: ["quality"]
+    instructions: "Analista de QA: verifique se o comportamento novo tem teste que falharia sem a mudanca e se ha caso de borda descoberto; cite a regra da skill quando houver."
